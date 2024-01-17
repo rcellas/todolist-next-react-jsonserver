@@ -1,19 +1,19 @@
-export default function TodoList() {
+import Task from "../Task/Task";
+
+export default function TodoList({ tasks }) {
   return (
     <div className="overflow-x-auto">
       <table className="table">
-
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Job</th>
+            <th>Task</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Cy Ganderton</td>
-            <td>Quality Control Specialist</td>
-          </tr>
+          {tasks.map((task) => (
+            <Task key={task.id} task={task} />
+          ))}
         </tbody>
       </table>
     </div>
