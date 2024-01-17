@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aplicación de Lista de Tareas
 
-## Getting Started
+Esta es una aplicación simple de Lista de Tareas construida con React, Next.js,TypeScript, Tailwind CSS,Daisy UI y JSON Server.
 
-First, run the development server:
+El proyecto está realizado en diferentes ramas en las cuales se pueden ver el mismo proyecto realizado tanto en TypeScript como en JavaScript.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Puedes ver una imagen del resultado final a continuación:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Imagen de la Aplicación](./public/img/project/img1.png)
+![Imagen de la Aplicación Edit](./public/img/project/edit.png)
+![Imagen de la Aplicación Delete](./public/img/project/delete.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tecnologías
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Daisy UI](https://daisyui.com/)
+- [JSON Server](https://www.npmjs.com/package/json-server)
+- [Axios](https://www.npmjs.com/package/axios)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [UUID](https://www.npmjs.com/package/uuid)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
+- Crear una tarea
+- Editar una tarea
+- Eliminar una tarea
+- Ver todas las tareas
 
-## Learn More
+## Inicio Rápido
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clonar el repositorio:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/rcellas/todo-list-app.git
+   cd todo-list-app
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Instalar las dependencias:**
+   
+    ```bash
+    npm install
+    ```
 
-## Deploy on Vercel
+3. **Iniciar el servidor de desarrollo:**
+    Para iniciar Next.js en modo de desarrollo, ejecuta el siguiente comando:
+    ```bash
+    npm run dev
+    ```
+    Para iniciar el servidor JSON Server, ejecuta el siguiente comando:
+    ```bash
+    npm run json-server
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Abrir la aplicación en tu navegador:**
+   Podrás ver la aplicación corriendo en [http://localhost:3000](http://localhost:3000) y el servidor JSON Server en [http://localhost:3001](http://localhost:3001).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. **Visualización del proyecto en diferentes tecnologías:**
+   Para ver el proyecto realizado en JavaScript, ejecuta el siguiente comando:
+   ```bash
+   git checkout vanilla-todo-list
+   ```
+   Para ver el proyecto realizado en TypeScript, ejecuta el siguiente comando:
+   ```bash
+   git checkout ts-todo-list
+   ```
+
+
+
+## Licencia
+
+Este proyecto está bajo la licencia [MIT](./LICENSE).
