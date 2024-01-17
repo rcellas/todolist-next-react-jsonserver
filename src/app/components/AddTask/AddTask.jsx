@@ -3,7 +3,7 @@
 import { FaPlus } from "react-icons/fa6";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
-import { addTodo } from "../../../../api";
+import { addTodo } from "../../api/api";
 import { useRouter } from "next/navigation";
 import { v4 as uuidv4 } from "uuid";
 

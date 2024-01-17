@@ -3,7 +3,7 @@
 import { FiDelete, FiEdit } from "react-icons/fi";
 import Modal from "../Modal/Modal";
 import { useState } from "react";
-import { editTodo, deleteTodo } from "../../../../api";
+import { editTodo, deleteTodo } from "../../api/api";
 import { useRouter } from "next/navigation";
 
 export default function Task({ task }) {
